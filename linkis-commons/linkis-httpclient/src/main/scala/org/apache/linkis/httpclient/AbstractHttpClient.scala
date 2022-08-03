@@ -305,6 +305,7 @@ abstract class AbstractHttpClient(clientConfig: ClientConfig, clientName: String
           }
         }
         httpPost
+        //querydatasource是GET action
       case get: GetAction =>
         val builder = new URIBuilder(realURL)
         if (!get.getParameters.isEmpty) {

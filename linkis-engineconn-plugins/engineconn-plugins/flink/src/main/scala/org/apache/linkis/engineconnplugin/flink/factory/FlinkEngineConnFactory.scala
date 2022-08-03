@@ -290,4 +290,6 @@ object FlinkEngineConnFactory extends Logging  {
   private val settings = ClassUtils.reflections.getSubTypesOf(classOf[Settings]).asScala
     .filterNot(ClassUtils.isInterfaceOrAbstract).map(_.newInstance()).toList
   info(s"Settings list: ${settings.map(_.getClass.getSimpleName)}.")
+
+  private val settings2 = ClassUtils.reflections.getSubTypesOf(classOf[Settings]).asScala
 }
