@@ -3,6 +3,7 @@ Linkis
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![codecov](https://codecov.io/gh/apache/incubator-linkis/branch/master/graph/badge.svg)](https://codecov.io/gh/apache/incubator-linkis/branch/master)
+[![Page Views Count](https://badges.toozhao.com/badges/01G7TRNN1PH9PMSCYWDF3EK4QT/green.svg)](https://badges.toozhao.com/stats/01G7TRNN1PH9PMSCYWDF3EK4QT "Get your own page views count badge on badges.toozhao.com")
 
 [English](README.md) | [中文](README_CN.md)
 
@@ -77,8 +78,7 @@ Please go to the [Linkis Releases Page](https://linkis.apache.org/download/main)
 # Compile and Deploy
 
 > For more detailed guidance see:
->[[Backend Compile]](https://linkis.apache.org/zh-CN/docs/latest/development/linkis_compile_and_package)
->[[Management Console Build]](https://linkis.apache.org/zh-CN/docs/latest/development/web_build)
+>[[Compile]](https://linkis.apache.org/docs/latest/development/linkis-compile-and-package)
 
 ```shell
 
@@ -98,7 +98,7 @@ npm install
 npm run build
 ```
  
-Please refer to [Quick Deployment](https://linkis.apache.org/docs/latest/deployment/quick_deploy) to do the deployment.
+Please refer to [Quick Deployment](https://linkis.apache.org/docs/latest/deployment/quick-deploy) to do the deployment.
 
 # Examples and Guidance
 - [User Manual](https://linkis.apache.org/docs/latest/user_guide/overview)
